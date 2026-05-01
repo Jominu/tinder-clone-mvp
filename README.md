@@ -28,7 +28,7 @@ Without the Dart defines, the app opens a configuration screen. This keeps tests
 
 ## Supabase Setup
 
-1. Create or choose a Supabase project dedicated to this MVP.
+1. Create or choose a Supabase project dedicated to this MVP. Requested project name: `tinder-clone-mvp`.
 2. Apply `supabase/schema.sql`.
 3. Confirm the `profile-photos` bucket exists.
 4. Use object paths shaped like `{auth.uid()}/{uuid}.{ext}`.
@@ -71,3 +71,9 @@ flutter test
 ## Notion
 
 The PRD was created under the Notion `Works` page as `Swipe Match MVP PRD`.
+
+## Requested External Assets
+
+- Supabase project: `tinder-clone-mvp`
+- GitHub repository: `tinder-clone-mvp-owner/repo`
+- Figma file: `tinder-clone-mvp`

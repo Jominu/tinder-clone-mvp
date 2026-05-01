@@ -42,6 +42,7 @@
 - Create: `supabase/schema.sql`
 
 - [ ] Confirm the target Supabase project is dedicated to this MVP and is not `minglo-prod`.
+- [ ] Use the requested Supabase project name `tinder-clone-mvp`.
 - [ ] Define `profiles`, `profile_photos`, `swipes`, and `matches`.
 - [ ] Enable RLS on all public tables.
 - [ ] Add policies for owner writes, discovery reads, swipe creation, and match reads.
@@ -116,6 +117,18 @@
 - [ ] Add smoke widget tests for app shell rendering.
 - [ ] Run `flutter analyze`.
 - [ ] Run `flutter test`.
+
+### Task 9: External MCP Assets
+
+**Targets:**
+- Supabase project: `tinder-clone-mvp`
+- GitHub repository: `tinder-clone-mvp-owner/repo`
+- Figma file: `tinder-clone-mvp`
+
+- [ ] Create or select the dedicated Supabase project, excluding `minglo-prod`.
+- [ ] Apply `supabase/schema.sql` only to the dedicated project.
+- [ ] Publish the local Git commit to the requested GitHub repository.
+- [ ] Create a Figma design file with Auth, Profile, Discovery, and Matches wireframes.
 
 ## Self-Review
 
