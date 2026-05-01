@@ -122,8 +122,10 @@
 
 **Targets:**
 - Supabase project: `tinder-clone-mvp`
-- GitHub repository: `tinder-clone-mvp-owner/repo`
+- Supabase URL: `https://hkdsguzbjywieieyijwk.supabase.co`
+- GitHub repository: `Jominu/tinder-clone-mvp`
 - Figma file: `tinder-clone-mvp`
+- Figma URL: `https://www.figma.com/design/6fEBndrAPTkazbXjjrsVSv/tinder-clone-mvp?node-id=0-1&p=f&t=59MDCLa65LulwgWA-0`
 
 - [ ] Create or select the dedicated Supabase project, excluding `minglo-prod`.
 - [ ] Apply `supabase/schema.sql` only to the dedicated project.
