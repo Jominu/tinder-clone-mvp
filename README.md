@@ -19,12 +19,18 @@ Deferred: realtime chat, push notifications, paid plans, advanced filters, moder
 ```bash
 cd swipe_match_mvp
 flutter pub get
+flutter run
+```
+
+The MVP Supabase URL and publishable key are included as development defaults, so `flutter run` connects to the `tinder-clone-mvp` project. To point the app at another project, override them with Dart defines:
+
+```bash
 flutter run \
   --dart-define=SUPABASE_URL=https://YOUR_PROJECT.supabase.co \
   --dart-define=SUPABASE_ANON_KEY=YOUR_PUBLISHABLE_OR_ANON_KEY
 ```
 
-Without the Dart defines, the app opens a configuration screen. This keeps tests and local scaffolding usable before a live Supabase project is selected.
+Only use a publishable or legacy anon key in the Flutter app. Never put a `service_role` key in client code.
 
 ## Supabase Setup
 
@@ -32,7 +38,7 @@ Without the Dart defines, the app opens a configuration screen. This keeps tests
 2. Apply `supabase/schema.sql`.
 3. Confirm the `profile-photos` bucket exists.
 4. Use object paths shaped like `{auth.uid()}/{uuid}.{ext}`.
-5. Add the project URL and publishable/anon key to the Flutter run command.
+5. Use `flutter run`, or override the project URL/key with Dart defines if needed.
 
 The currently connected Supabase account has existing projects. This repo intentionally does not apply schema changes to those projects without explicit approval.
 
