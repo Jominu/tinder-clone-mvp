@@ -36,6 +36,14 @@ Without the Dart defines, the app opens a configuration screen. This keeps tests
 
 The currently connected Supabase account has existing projects. This repo intentionally does not apply schema changes to those projects without explicit approval.
 
+Applied MVP project:
+
+- Project name: `tinder-clone-mvp`
+- Project ref: `hkdsguzbjywieieyijwk`
+- Project URL: `https://hkdsguzbjywieieyijwk.supabase.co`
+- Migration applied: `create_swipe_match_mvp_schema`
+- Security follow-up applied: `fix_swipe_match_security_advisors`
+
 ### Protected Projects
 
 Never apply this MVP schema, migrations, storage policies, test data, or exploratory SQL to `minglo-prod`. That project is a separate personal project and is explicitly out of scope for this MVP.
@@ -71,6 +79,19 @@ flutter test
 ## Notion
 
 The PRD was created under the Notion `Works` page as `Swipe Match MVP PRD`.
+
+## Figma
+
+MVP wireframes were created in the Figma file:
+
+https://www.figma.com/design/6fEBndrAPTkazbXjjrsVSv/tinder-clone-mvp?node-id=0-1&p=f&t=59MDCLa65LulwgWA-0
+
+Frames:
+
+- Auth
+- Profile Setup
+- Discovery
+- Matches
 
 ## Requested External Assets
 

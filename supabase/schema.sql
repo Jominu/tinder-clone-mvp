@@ -57,6 +57,7 @@ alter table public.matches enable row level security;
 create or replace function public.set_updated_at()
 returns trigger
 language plpgsql
+set search_path = public
 as $$
 begin
   new.updated_at = now();
@@ -194,10 +195,6 @@ values ('profile-photos', 'profile-photos', true)
 on conflict (id) do nothing;
 
 drop policy if exists "profile photos public read" on storage.objects;
-create policy "profile photos public read"
-on storage.objects for select
-to public
-using (bucket_id = 'profile-photos');
 
 drop policy if exists "users upload own profile photos" on storage.objects;
 create policy "users upload own profile photos"

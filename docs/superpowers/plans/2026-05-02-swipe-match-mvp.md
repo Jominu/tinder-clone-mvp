@@ -41,12 +41,12 @@
 **Files:**
 - Create: `supabase/schema.sql`
 
-- [ ] Confirm the target Supabase project is dedicated to this MVP and is not `minglo-prod`.
-- [ ] Use the requested Supabase project name `tinder-clone-mvp`.
-- [ ] Define `profiles`, `profile_photos`, `swipes`, and `matches`.
-- [ ] Enable RLS on all public tables.
-- [ ] Add policies for owner writes, discovery reads, swipe creation, and match reads.
-- [ ] Document `profile-photos` bucket and storage policies.
+- [x] Confirm the target Supabase project is dedicated to this MVP and is not `minglo-prod`.
+- [x] Use the requested Supabase project name `tinder-clone-mvp`.
+- [x] Define `profiles`, `profile_photos`, `swipes`, and `matches`.
+- [x] Enable RLS on all public tables.
+- [x] Add policies for owner writes, discovery reads, swipe creation, and match reads.
+- [x] Document `profile-photos` bucket and storage policies.
 
 ### Task 3: Core Models And Config
 
@@ -127,10 +127,10 @@
 - Figma file: `tinder-clone-mvp`
 - Figma URL: `https://www.figma.com/design/6fEBndrAPTkazbXjjrsVSv/tinder-clone-mvp?node-id=0-1&p=f&t=59MDCLa65LulwgWA-0`
 
-- [ ] Create or select the dedicated Supabase project, excluding `minglo-prod`.
-- [ ] Apply `supabase/schema.sql` only to the dedicated project.
-- [ ] Publish the local Git commit to the requested GitHub repository.
-- [ ] Create a Figma design file with Auth, Profile, Discovery, and Matches wireframes.
+- [x] Create or select the dedicated Supabase project, excluding `minglo-prod`.
+- [x] Apply `supabase/schema.sql` only to the dedicated project.
+- [x] Publish the local Git commit to the requested GitHub repository.
+- [x] Create a Figma design file with Auth, Profile, Discovery, and Matches wireframes.
 
 ## Self-Review
 

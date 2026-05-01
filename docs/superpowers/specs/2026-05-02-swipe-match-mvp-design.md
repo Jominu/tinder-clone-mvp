@@ -138,3 +138,10 @@ Supabase verification:
 - GitHub repository: `Jominu/tinder-clone-mvp`
 - Figma file: `tinder-clone-mvp`
 - Figma URL: `https://www.figma.com/design/6fEBndrAPTkazbXjjrsVSv/tinder-clone-mvp?node-id=0-1&p=f&t=59MDCLa65LulwgWA-0`
+
+## External Asset Status
+
+- Supabase schema applied to `hkdsguzbjywieieyijwk`.
+- Supabase security advisors returned no lints after follow-up migration.
+- GitHub `main` branch pushed to `Jominu/tinder-clone-mvp`.
+- Figma wireframes created for Auth, Profile Setup, Discovery, and Matches.
