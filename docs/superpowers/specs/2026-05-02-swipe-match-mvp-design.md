@@ -127,5 +127,6 @@ Supabase verification:
 ## Open Constraints
 
 - A real Supabase project URL and publishable anon key are required for live app execution.
+- The existing Supabase project `minglo-prod` is protected and must never be modified for this MVP.
 - Figma creation requires an available target file or generated file flow. The MVP can proceed with local Flutter implementation first and add Figma artifacts once a file target is available.
 - GitHub publication requires a target repository or permission to create one.

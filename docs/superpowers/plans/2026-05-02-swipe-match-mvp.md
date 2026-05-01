@@ -41,6 +41,7 @@
 **Files:**
 - Create: `supabase/schema.sql`
 
+- [ ] Confirm the target Supabase project is dedicated to this MVP and is not `minglo-prod`.
 - [ ] Define `profiles`, `profile_photos`, `swipes`, and `matches`.
 - [ ] Enable RLS on all public tables.
 - [ ] Add policies for owner writes, discovery reads, swipe creation, and match reads.

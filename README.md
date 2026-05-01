@@ -36,6 +36,10 @@ Without the Dart defines, the app opens a configuration screen. This keeps tests
 
 The currently connected Supabase account has existing projects. This repo intentionally does not apply schema changes to those projects without explicit approval.
 
+### Protected Projects
+
+Never apply this MVP schema, migrations, storage policies, test data, or exploratory SQL to `minglo-prod`. That project is a separate personal project and is explicitly out of scope for this MVP.
+
 ## Architecture
 
 The app uses feature-first MVVM with Riverpod:
